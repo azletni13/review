@@ -8,4 +8,4 @@ function map(array, cb) {
   return newArr;
 }
 
-console.log(map(["ground", "control", "to", "major", "tom"], (elm) => { return elm.length }));
+console.log(map(["ground", "control", "to", "major", "tom"], (elm) => { return elm }));
